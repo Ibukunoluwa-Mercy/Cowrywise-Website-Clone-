@@ -1111,15 +1111,26 @@ body {
 /* Responsiveness */
 
 @media screen and (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        padding: 20px;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+    }
     .d-flex {
-        margin-left: 5px;
+    margin-left: 5px;
+}
+
+    .navbar-brand img {
+        margin-left: 30px;
     }
 
     .navbar-toggler {
         margin-right: 30px;
     }
 
-    .p-1 {
+    .page-1 {
         width: 100%;
         height: 70vh;
     }
@@ -1456,14 +1467,6 @@ body {
         width: 15px;
     }
 
-    .vr {
-        display: none;
-    }
-
-    hr {
-        display: none;
-    }
-
     .sub-footer-1 {
         flex-direction: column-reverse;
     }
@@ -1507,18 +1510,9 @@ body {
         width: 100%;
     }
 
-    /* .store-container{
-        flex-direction: column;
-        display: flex;
-        width: 100%;
-        padding: 10px;
-        gap: 10px;
-    } */
-    /* .store-button{
-        width: 100%;
-        padding: 20px;
-        display: flex;
-    } */
+.footer-1{
+    margin-bottom: 200px;
+}
 
     .last-footer {
         flex-direction: column;
