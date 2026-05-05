@@ -561,7 +561,7 @@
 .testimonial-section {
     width: 100%;
     padding: 80px 40px;
-    overflow: hidden;
+
 }
 
 .testimony-1 {
@@ -579,7 +579,7 @@
     width: 310px;
     height: 350px;
     border-radius: 20px;
-    overflow: hidden;
+
     flex-shrink: 0;
     transition: 0.5s ease;
 }

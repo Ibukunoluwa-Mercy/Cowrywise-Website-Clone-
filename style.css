@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
-
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -501,8 +501,9 @@ body {
 }
 
 .section-5-slide {
-    overflow: hidden;
+    /* overflow: hidden; */
     width: 100%;
+    
 }
 
 .slider-track {
@@ -1122,6 +1123,10 @@ body {
     margin-left: 5px;
 }
 
+.section-1 {
+    background: none;
+}
+
     .navbar-brand img {
         margin-left: 30px;
     }
@@ -1282,6 +1287,7 @@ body {
         font-size: 12px;
         font-weight: 500;
     }
+
 
     .section-5-h3 {
         width: 100%;
