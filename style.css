@@ -160,7 +160,6 @@ body {
 
 .section-2 {
     width: 100%;
-    /* padding: 50px; */
     justify-content: center;
     align-items: center;
 }
@@ -561,7 +560,7 @@ body {
 }
 
 .sub-section-6 {
-    width: 80%;
+    width: 100%;
     padding: 20px;
     margin: auto;
     display: flex;
@@ -609,7 +608,6 @@ body {
 .section-6-cover {
     width: 100%;
     padding: 50px;
-    margin: auto;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -628,7 +626,7 @@ body {
 }
 
 .branch-1 {
-    width: 100%;
+    width: 400px;
     padding: 20px;
     height: 250px;
     border-radius: 20px;
@@ -658,7 +656,7 @@ body {
 }
 
 .branch-2 {
-    width: 200px;
+    width: 400px;
     height: 65px;
 
 }
@@ -780,13 +778,12 @@ body {
 
 .section-7-video {
     width: 100%;
-    padding: 50px;
+    padding: 10px;
     background-color: white;
-    margin: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 25px;
 }
 
 .section-7-video h2 {
@@ -804,14 +801,13 @@ body {
 
 .testimony-section {
     width: 100%;
-    padding: 100px 100px;
+    padding: 40px;
     overflow: hidden;
     align-items: flex-start;
 }
 
 .testimony-1 {
     width: 100%;
-    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1159,32 +1155,29 @@ body {
         box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
     }
 
-    .grow h2,
-    .sub-section-3 h2,
-    .section-5-h3,
-    .section-7-video h2 {
-        font-size: 35px !important;
-    }
-
     .section-2 {
         width: 100%;
-        padding: 20px;
     }
 
     .grow {
         width: 100%;
-        padding: 20px;
-        margin: auto;
+        padding: 0px 10px;
         flex-direction: column;
     }
 
+    .grow h2 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
     .grow p {
-        font-size: 15px;
+        font-size: 16px;
+        width: 100%;
     }
 
     .grow a {
         width: 50%;
-        padding: 20px;
+        padding: 10px;
         margin-left: -150px;
     }
 
@@ -1212,13 +1205,12 @@ body {
 
     .section-3 {
         width: 100%;
-        padding: 20px;
+        padding: 10px;
     }
 
     .sub-section-3 {
         width: 100%;
         padding: 20px;
-        margin: auto;
         flex-direction: column;
         gap: 20px;
     }
@@ -1230,12 +1222,12 @@ body {
 
     .sub-section-3 p {
         width: 100%;
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .sub-section-3 a {
-        width: 80%;
-        padding: 20px;
+        width: 60%;
+        padding: 10px;
         margin-left: -80px;
         background-color: #0067f5;
         border: 1px solid #0067f5;
@@ -1248,8 +1240,7 @@ body {
 
     .section-4 {
         width: 100%;
-        padding: 20px;
-        margin: auto;
+        padding: 10px;
     }
 
     .section-4-layout {
@@ -1259,11 +1250,31 @@ body {
     .section-4-left,
     .right {
         width: 100%;
-        height: 400px;
+        height: 590px;
     }
 
     .phone-img {
         top: -150px;
+    }
+
+    .left-rotate {
+        width: 200px;
+    }
+
+    .text h2 {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .text p {
+        width: 100%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .section-5-h3 {
+        width: 100%;
+        font-size: 35px;
     }
 
     .card {
@@ -1276,14 +1287,16 @@ body {
 
     .section-6 {
         width: 100%;
-        padding: 10px;
+        padding: 20px;
         flex-direction: column;
         gap: 20px;
+        overflow: hidden;
     }
 
     .sub-section-6 {
         flex-direction: column;
         width: 100%;
+        overflow: hidden;
     }
 
     .sub-section-6 h2 {
@@ -1305,15 +1318,21 @@ body {
 
     .section-6-cover {
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
         width: 100%;
         margin: auto;
     }
 
     .branch {
         width: 100%;
+        height: 300px;
         padding: 10px;
         margin: auto;
+        min-height: 250px;
+    }
+
+    .branch-1 {
+        width: 100%;
     }
 
     .today-cover p {
@@ -1335,12 +1354,17 @@ body {
 
     .testimony-1 {
         flex-direction: column;
-        gap: 30px;
+        /* gap: 30px; */
     }
 
     .sub-testimony {
         width: 100%;
         max-width: 313px;
+        margin-top: 40px;
+    }
+
+    .fa-play{
+        display: none;
     }
 
     #first-play,
@@ -1349,32 +1373,152 @@ body {
         display: none;
     }
 
-    .section-7{
+    .section-7 {
         width: 100%;
         flex-direction: column;
     }
-    .section-7-video{
+
+    .section-7-video {
         width: 100%;
         flex-direction: column;
     }
-    .section-7-video h2{
+
+    .section-7-video h2 {
         width: 100%;
-        font-size: 20px;
+        font-size: 25px;
+        font-weight: 500;
     }
-    .video-1{
+
+    .video-1 {
         width: 100%;
     }
 
-    /* Footer / Contact */
+
+
+    .section-8 {
+        flex-direction: column;
+    }
+
+    .section-8-cover {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .sub-section-8 h3 {
+        width: 100%;
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .sub-section-8 a {
+        width: 100%;
+        font-size: 35px;
+        text-align: justify;
+        font-weight: 400;
+    }
+
+    .sub-section-8 a i {
+        display: none;
+    }
+
+    .section-8-contact {
+        flex-direction: column;
+    }
+
     .sub-section-8-contact {
         flex-direction: column;
-        gap: 20px;
+        width: 100%;
     }
 
     .contact-1 {
         width: 100%;
-        height: auto;
     }
+
+    .contact-1 p,
+    .contact-1 img {
+        margin-left: -40px;
+    }
+
+
+    .store-container {
+        width: 450px;
+        height: 80px;
+        padding: 12px 16px;
+    }
+
+    .store-button {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .icon img {
+        width: 15px;
+    }
+
+    .vr {
+        display: none;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .sub-footer-1 {
+        flex-direction: column-reverse;
+    }
+
+    .sub-footer-1 p {
+        width: 100%;
+        font-size: 17px;
+        margin-top: 20px;
+    }
+
+    .badge-container {
+        align-items: center;
+        gap: 10px;
+        width: 50%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+        padding: 10px;
+    }
+
+    .store-container{
+        width: 450px;
+        height: 80px;
+        padding: 12px 16px;
+        overflow: hidden;
+    }
+
+    .store-button{
+        display: flex;
+        align-items: center;
+        gap: 10px;  
+    }
+
+    .icon img{
+        width: 15px;
+    }
+
+    .contact-3 {
+        display: grid;
+        padding: 2px 10px;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        width: 100%;
+    }
+
+    /* .store-container{
+        flex-direction: column;
+        display: flex;
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+    } */
+    /* .store-button{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+    } */
 
     .last-footer {
         flex-direction: column;
