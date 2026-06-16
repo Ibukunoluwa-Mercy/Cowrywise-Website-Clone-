@@ -1435,11 +1435,7 @@ body {
     }
 
     .branch-1 {
-        width: 365px;
-    }
-
-    .background-2{
-        width: 500px;
+        width: 100%;
     }
 
     .background-2 {
@@ -1609,12 +1605,5 @@ body {
 
     .last-footer {
         display: none;
-<<<<<<< HEAD
-=======
-        /* flex-direction: column;
-        gap: 10px;
-        text-align: justify;
-        padding-bottom: 20px; */
->>>>>>> c27be9db2dcac746223bc9e8dae39ee52f8b853d
     }
 }
